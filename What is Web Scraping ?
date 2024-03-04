@@ -1,0 +1,32 @@
+
+Web scraping is the process of extracting data from websites. It involves fetching web pages, parsing the HTML or other markup language, and then extracting the desired information. This can be done manually, but automated tools and scripts are often used for efficiency.
+
+Here's a basic overview of the process:
+
+Sending an HTTP request: The first step is to send an HTTP request to the target website's server to fetch the web page.
+
+Downloading the web page: Once the request is received and accepted, the server sends back the HTML content of the web page.
+
+Parsing HTML: The HTML content is then parsed to extract relevant information using techniques such as Regular Expressions or more commonly, using HTML parsing libraries like BeautifulSoup (for Python) or Cheerio (for Node.js).
+
+Extracting data: After parsing the HTML, specific data elements (such as text, images, links, etc.) are extracted based on the desired criteria.
+
+Storing the data: The extracted data can be stored in a structured format like CSV, JSON, or a database for further analysis or use.
+
+Knowledge required for web scraping:
+
+Programming skills: Knowledge of a programming language is essential. Python is a popular choice for web scraping due to its rich libraries, such as BeautifulSoup and Scrapy.
+
+HTML and CSS: A basic understanding of HTML and CSS is necessary to navigate and locate the desired data within the web page structure.
+
+HTTP and web protocols: Understanding how HTTP requests work and being familiar with web protocols is crucial for interacting with web servers.
+
+Regular expressions (optional): Regular expressions can be used to match and extract specific patterns from the HTML content.
+
+Ethical considerations: It's important to be aware of and follow ethical guidelines and legal requirements when scraping websites. Some websites have terms of service that explicitly prohibit scraping.
+
+We are going to learn 2 techniques for Web Scraping 
+1 - BeutifulSoup
+2-  Selenium webdriver
+
+Web scraping should be done responsibly, respecting the terms of use of the websites being scraped and ensuring that the process does not overload the server or disrupt the normal functioning of the site. Always check a website's robots.txt file to see if scraping is allowed or restricted.
